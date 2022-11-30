@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
 	return (
-		<div>
+		<div className="px-2">
 			<Head>
 				<title>Sample page</title>
 				<meta
@@ -54,7 +54,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div >
-						<div className="pl-10">
+						<div className="sm:pl-10">
 						<TitlePrice />
 
 						<div className='mt-8'>

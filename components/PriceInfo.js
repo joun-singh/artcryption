@@ -2,7 +2,7 @@ import styles from "../styles/PriceInfo.module.css";
 
 const PriceInfo = () => {
 	return (
-		<div className='flex flex-row gap-10'>
+		<div className='flex flex-col gap-10 sm:flex-row text-center'>
 			<div>
 				<button className='font-haffer bg-grey py-2 px-4 rounded text-2xl  font-medium'>
 					Make Offer

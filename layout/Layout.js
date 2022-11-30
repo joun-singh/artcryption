@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 const Layout = ({children}) => {
     return(
-        <div className='lg:container lg:mx-auto'>
+        <div className='container lg:container lg:mx-auto'>
         
         <Header/>
            {children} 
