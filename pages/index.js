@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
 	return (
-		<div className="px-2">
+		<div className='px-2'>
 			<Head>
 				<title>Sample page</title>
 				<meta
@@ -18,8 +18,6 @@ export default function Home() {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-
-			
 
 			<section>
 				<div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
@@ -49,40 +47,38 @@ export default function Home() {
 
 						<div>
 							<ShotDescription title='curators'></ShotDescription>
-							<p className="text-sm font-kern mt-4">Deux Facit</p>
-							<p className="text-sm font-kern">Lor Ipsum Dolor</p>
+							<p className='text-sm font-kern mt-4'>Deux Facit</p>
+							<p className='text-sm font-kern'>Lor Ipsum Dolor</p>
 						</div>
 					</div>
-					<div >
-						<div className="sm:pl-10">
-						<TitlePrice />
+					<div>
+						<div className='sm:pl-10'>
+							<TitlePrice />
 
-						<div className='mt-8'>
-							<ShotDescription title='NFT DETAILS'>
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit. Pharetra semper tempor libero
-								dolor luctus. Adipiscing amet, quis enim,
-								pellentesque in dolor.
-							</ShotDescription>
-						</div>
+							<div className='mt-8'>
+								<ShotDescription title='NFT DETAILS'>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit. Pharetra semper tempor
+									libero dolor luctus. Adipiscing amet, quis
+									enim, pellentesque in dolor.
+								</ShotDescription>
+							</div>
 
-						<div className='mt-14'>
-							<ShotDescription title='additional content'>
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit. Pharetra semper tempor libero
-								dolor luctus. Adipiscing amet, quis enim,
-								pellentesque in dolor.
-							</ShotDescription>
+							<div className='mt-14'>
+								<ShotDescription title='additional content'>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit. Pharetra semper tempor
+									libero dolor luctus. Adipiscing amet, quis
+									enim, pellentesque in dolor.
+								</ShotDescription>
+							</div>
 						</div>
+						<div className='mt-20'>
+							<PriceInfo />
 						</div>
-            <div className="mt-20">
-              <PriceInfo/>
-            </div>
 					</div>
 				</div>
 			</section>
-
-			
 		</div>
 	);
 }
